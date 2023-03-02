@@ -1,0 +1,131 @@
+/* css pada file home */
+h1{
+    color: midnightblue;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20pt;
+}
+h2{
+    color: midnightblue;
+    text-align: center;
+    font-family: cursive;
+    font-size: 26pt;
+}
+li.menu{
+    text-align: left;
+    color: black;
+    font-family:cursive;
+    font-size: 16pt;
+}
+p{
+    text-align: justify;
+    font-size: 14pt;
+}
+li.ulang{
+    text-align: justify;
+    font-size: 14pt;
+}
+body{
+    text-align: center;
+}
+/* css pada file header */
+body.header{
+    background-image: url('../img/foto4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1.header{
+    color: rgb(247, 247, 247);
+    font-size: 30pt;
+    text-align: center;
+    padding: 50pt;
+    font-family: fantasy;
+    font-weight: lighter;
+    text-shadow: 3px 2px 1px rgb(196, 177, 149);
+    
+}
+/* css pada file navbar */
+body.navbar{
+    background-color:rgb(196, 177, 149);
+    text-align: left; 
+    color: bisque;
+}
+div#menu{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a.item:link, a.item:visited, a.item:active{
+    text-decoration: none;
+    font-size: 12pt;
+    color: black;
+    padding: 5px;
+    background-color:rgb(196, 177, 149);
+}
+a.item:hover{
+    text-decoration: none;
+    font-size: 10pt;
+    color: rgb(182, 158, 139);
+    border: 2px solid rgb(223, 157, 133);
+    padding: 15px;
+    background-color:bisque;
+}
+/* css pada file sidebar */
+body.sidebar{
+    background-color:rgb(243, 234, 221);
+}
+fieldset.sidebar{
+    border:3px solid burlywood;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px;
+}
+legend.sidebar{
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+ul#menu{
+    text-align: left;
+}
+a.sidebar:link, a.sidebar:visited, a.sidebar:active{
+    text-decoration: none;
+    font-size: 12pt;
+    color: black;
+    background-color:rgb(243, 234, 221);
+}
+a.sidebar:hover{
+    text-decoration: none;
+    font-size: 10pt;
+    color: rgb(182, 158, 139);
+    border: 1px solid rgb(223, 157, 133);
+    padding: 8px;
+    background-color:bisque;
+    border-radius: 30px;
+}
+/* css pada file footer */
+body.footer{
+    background-color: rgb(196, 177, 149);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* css pada file contact */
+fieldset.sosmed{
+    text-align: center;
+    border-radius: 40px;
+    background-color: antiquewhite;
+    box-shadow: 4px 4px 4px;
+    padding:10px;
+}
+p.sosmed{
+    text-align: center;
+}
+body.contact{
+    background-color: rgb(247, 214, 164);
+}
+legend.sosmed{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14pt;
+}
+

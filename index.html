@@ -1,0 +1,15 @@
+<!-- membuat frameset -->
+<title>Website</title>
+<frameset rows="20%,5%,*,5%" cols="100%" frameborder="0"><!-- set baris 1-->
+    <frame src="header.html" scrolling="no"/>
+    <frameset><!-- set baris 2-->
+        <frame src="navbar.html" scrolling ="no"/>
+    </frameset>
+    <frameset cols="20%,*,"><!-- set baris 3-->
+        <frame src="sidebar.html" noresize="no"/>
+        <frame name="main" src="home.html" />
+    </frameset>
+    <frameset><!-- set baris 4-->
+        <frame src="footer.html" scrolling="no" name="Contactme"/>
+    </frameset>
+</frameset>
