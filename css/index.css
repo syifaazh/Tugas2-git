@@ -1,4 +1,7 @@
 /* css pada file home */
+body.home{
+    background-color: azure;
+}
 h1{
     color: midnightblue;
     text-align: center;
